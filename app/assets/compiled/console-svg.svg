@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#24333D;}
+	.st1{fill:#404D56;}
+	.st2{fill:none;stroke:#F06368;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#79B94A;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="terminal-downloader_x60_465x217">
+	<rect x="0" y="15.707" class="st0" width="464.394" height="200.387"/>
+	<rect class="st1" width="464.394" height="16.094"/>
+	<line class="st2" x1="28.597" y1="43.376" x2="38.251" y2="43.376"/>
+	<polyline class="st2" points="18.459,33.48 23.287,38.549 18.459,43.376 	"/>
+	<circle id="_x3E_dl-line_2_" class="st3" cx="232.608" cy="101.745" r="36.461"/>
+	<polyline id="_x3E_dl-line_1_" class="st3" points="251.162,106.268 232.166,125.264 213.171,106.268 	"/>
+	<line id="_x3E_dl-line" class="st3" x1="232.166" y1="125.264" x2="232.166" y2="75.759"/>
+</g>
+</svg>

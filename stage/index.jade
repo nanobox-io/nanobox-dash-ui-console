@@ -6,19 +6,27 @@ html(lang="en")
 
     // build:remove 
     link(href="stage/css/stage.css", rel="stylesheet")
+    link(href="stage/css/stage.css", rel="stylesheet")
     // endbuild
     
     // build:css style.css
     link(href="css/main.css", rel="stylesheet")
+    link(href="css/console-svg.css", rel="stylesheet")
     // endbuild
 
   body
     // build:remove 
     script(src="bower-libs/jquery/dist/jquery.js")
     script(src="bower-libs/jade/runtime.js")
+    script(src="bower-libs/shadow-icons/rel/app.js")
+    script(src="https://use.typekit.net/cqd5kth.js")
     // endbuild
 
+    script(type="text/javascript") try{Typekit.load({ async: true });}catch(e){}
+
+
     // build:js app.js
+    script(src="js/console-svg.js")
     script(src="js/main.js")
     // endbuild
     
