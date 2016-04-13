@@ -1,17 +1,17 @@
-.console-component   { width:600px; background:white; display:flex; flex-direction:column; align-items: center; padding: 40px 0;
-  $active-col : #79B94A;
-  $hover-col  : #FDFF95;
+.console-component   { width:600px; background:#202D36; display:flex; flex-direction:column; align-items: center; padding: 40px 0 27px;
+  $active-col : #02D6ED;
+  $hover-col  : white;
   .download          { width:464px; position:relative;
-    a                { color: $active-col;
+    a                { color: $active-col; @include transition(color, 0.1s)
       .txt           { text-align:center; width:190px; position: absolute; top:150px; z-index: 2; left:0; right:0; margin:0 auto; text-transform: uppercase; font-size:14px; letter-spacing: 0.08em; line-height:1.4;}
-      svg .dl-line   { stroke:$active-col}
-      &:hover        { color:$hover-col;
-        svg .dl-line { stroke:$hover-col}
+      svg .dl-line   { @include transition(all, 0.1s); }
+      &:hover        { color:$hover-col; ;
+        svg .dl-line { stroke:$hover-col;}
       }
     }
   }
-  .guide             { font-style:italic; font-weight:$medium; color:#3F5F6B; margin-top:20px;
-    a                { color:$link-blue; text-decoration: none; font-style:normal;
+  .guide             { font-style:italic; font-weight:$medium; color:#4C8499; margin-top:20px;
+    a                { color:#3FAFC8; text-decoration: none; font-style:normal;
       &:hover        { text-decoration:underline; }
     }
   }

@@ -3,18 +3,31 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#24333D;}
-	.st1{fill:#404D56;}
+	.st0{fill:#293945;}
+	.st1{fill:#324959;}
 	.st2{fill:none;stroke:#F06368;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#79B94A;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#02D6ED;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#F06368;}
+	.st5{fill:#02D6ED;}
 </style>
-<g id="terminal-downloader_x60_465x217">
-	<rect x="0" y="15.707" class="st0" width="464.394" height="200.387"/>
-	<rect class="st1" width="464.394" height="16.094"/>
-	<line class="st2" x1="28.597" y1="43.376" x2="38.251" y2="43.376"/>
-	<polyline class="st2" points="18.459,33.48 23.287,38.549 18.459,43.376 	"/>
-	<circle id="_x3E_dl-line_2_" class="st3" cx="232.608" cy="101.745" r="36.461"/>
-	<polyline id="_x3E_dl-line_1_" class="st3" points="251.162,106.268 232.166,125.264 213.171,106.268 	"/>
-	<line id="_x3E_dl-line" class="st3" x1="232.166" y1="125.264" x2="232.166" y2="75.759"/>
+<g id="terminal-downloader_x60_465x221">
+	<rect y="19.7" class="st0" width="464.4" height="200.4"/>
+	<rect class="st1" width="464.4" height="20.1"/>
+	<circle id="_x3E_dl-line_2_" class="st2" cx="232.6" cy="105.8" r="36.5"/>
+	<polyline id="_x3E_dl-line_1_" class="st3" points="251.2,110.3 232.2,129.3 213.2,110.3 	"/>
+	<line id="_x3E_dl-line" class="st3" x1="232.2" y1="129.3" x2="232.2" y2="79.8"/>
+	<path class="st4" d="M38.721,39.119v1.5h1.5v6h-3.012v-6h-2.976v6h-3.012v-7.5H38.721z"/>
+	<path class="st4" d="M43.221,40.619v-1.5h7.5v7.5h-7.5v-1.5h-1.5v-4.5H43.221z M44.733,45.119h2.976v-4.5h-2.976V45.119z"/>
+	<path class="st4" d="M59.721,39.119v1.5h1.5v6h-3.012v-6h-2.976v6h-3.012v-7.5H59.721z"/>
+	<path class="st4" d="M71.721,45.119h-1.5v1.5h-6v-1.5h-1.5v-4.5h1.5v-1.5h6v1.5h1.5V45.119z M68.709,40.619h-2.976v4.5h2.976
+		V40.619z"/>
+	<path class="st4" d="M80.721,40.619h1.5v4.5h-1.5v1.5h-7.5v-10.5h3.012v3h4.488V40.619z M79.209,45.119v-4.5h-2.976v4.5H79.209z"/>
+	<path class="st4" d="M92.721,45.119h-1.5v1.5h-6v-1.5h-1.5v-4.5h1.5v-1.5h6v1.5h1.5V45.119z M89.709,40.619h-2.976v4.5h2.976
+		V40.619z"/>
+	<path class="st4" d="M103.221,46.619h-3.012v-3h-2.976v3h-3.012v-3h1.5v-1.5h-1.5v-3h3.012v3h2.976v-3h3.012v3h-1.5v1.5h1.5V46.619
+		z"/>
+	<path class="st4" d="M104.721,46.619h9v1.5h-9V46.619z"/>
+	<path class="st5" d="M23.037,40.052h2.249v2.268h-2.249v2.267h-2.304v2.268H16.18v-2.268h2.304V42.32h2.249v-2.268h-2.249v-2.268
+		H16.18v-2.268h4.553v2.268h2.304V40.052z"/>
 </g>
 </svg>

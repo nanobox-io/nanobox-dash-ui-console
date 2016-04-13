@@ -7,5 +7,8 @@ class Console
     $el.append $node
     castShadows pxSvgIconString, $node
 
+  destroy : () ->
+
+
 window.nanobox ||= {}
 nanobox.Console = Console

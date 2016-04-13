@@ -3,18 +3,28 @@
 <svg version="1.1" id="svgs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#24333D;}
-	.st1{fill:#404D56;}
+	.st0{fill:#293945;}
+	.st1{fill:#324959;}
 	.st2{fill:none;stroke:#F06368;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#79B94A;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#02D6ED;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:#F06368;}
+	.st5{fill:#02D6ED;}
 </style>
 <g id="terminal-downloader">
 	<rect x="82.1" y="133.4" class="st0" width="464.4" height="200.4"/>
-	<rect x="82.1" y="117.7" class="st1" width="464.4" height="16.1"/>
-	<line class="st2" x1="110.7" y1="161.1" x2="120.4" y2="161.1"/>
-	<polyline class="st2" points="100.6,151.2 105.4,156.3 100.6,161.1 	"/>
-	<circle id="_x3E_dl-line_2_" class="st3" cx="314.7" cy="219.5" r="36.5"/>
+	<rect x="82.1" y="113.7" class="st1" width="464.4" height="20.1"/>
+	<circle id="_x3E_dl-line_2_" class="st2" cx="314.7" cy="219.5" r="36.5"/>
 	<polyline id="_x3E_dl-line_1_" class="st3" points="333.3,224 314.3,243 295.3,224 	"/>
 	<line id="_x3E_dl-line" class="st3" x1="314.3" y1="243" x2="314.3" y2="193.5"/>
+	<path class="st4" d="M120.8,152.8v1.5h1.5v6h-3v-6h-3v6h-3v-7.5H120.8z"/>
+	<path class="st4" d="M125.3,154.3v-1.5h7.5v7.5h-7.5v-1.5h-1.5v-4.5H125.3z M126.8,158.8h3v-4.5h-3V158.8z"/>
+	<path class="st4" d="M141.8,152.8v1.5h1.5v6h-3v-6h-3v6h-3v-7.5H141.8z"/>
+	<path class="st4" d="M153.8,158.8h-1.5v1.5h-6v-1.5h-1.5v-4.5h1.5v-1.5h6v1.5h1.5V158.8z M150.8,154.3h-3v4.5h3V154.3z"/>
+	<path class="st4" d="M162.8,154.3h1.5v4.5h-1.5v1.5h-7.5v-10.5h3v3h4.5V154.3z M161.3,158.8v-4.5h-3v4.5H161.3z"/>
+	<path class="st4" d="M174.8,158.8h-1.5v1.5h-6v-1.5h-1.5v-4.5h1.5v-1.5h6v1.5h1.5V158.8z M171.8,154.3h-3v4.5h3V154.3z"/>
+	<path class="st4" d="M185.3,160.3h-3v-3h-3v3h-3v-3h1.5v-1.5h-1.5v-3h3v3h3v-3h3v3h-1.5v1.5h1.5V160.3z"/>
+	<path class="st4" d="M186.8,160.3h9v1.5h-9V160.3z"/>
+	<path class="st5" d="M105.1,153.8h2.2v2.3h-2.2v2.3h-2.3v2.3h-4.6v-2.3h2.3V156h2.2v-2.3h-2.2v-2.3h-2.3v-2.3h4.6v2.3h2.3V153.8z"
+		/>
 </g>
 </svg>
