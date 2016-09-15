@@ -1,18 +1,102 @@
-.console-component   { width:600px; background:#202D36; display:flex; flex-direction:column; align-items: center; padding: 40px 0 27px;
-  $active-col : #02D6ED;
-  $hover-col  : white;
-  .download          { width:464px; position:relative;
-    a                { color: $active-col; @include transition(color, 0.1s)
-      .txt           { text-align:center; width:190px; position: absolute; top:150px; z-index: 2; left:0; right:0; margin:0 auto; text-transform: uppercase; font-size:14px; letter-spacing: 0.08em; line-height:1.4;}
-      svg .dl-line   { @include transition(all, 0.1s); }
-      &:hover        { color:$hover-col; ;
-        svg .dl-line { stroke:$hover-col;}
+.console-component       {width:600px; background:#C5D3DB; min-height:20px;
+  .title                 {color:#254459; text-transform: uppercase; letter-spacing:0.04em; font-weight:$bold; font-size:15px; border-bottom:1px solid #97a9b5; padding-bottom:6px; margin-bottom:8px;}
+  > *                    {padding:25px 20px;}
+  svg                    {
+    *                    {transition:fill 300ms;}
+  }
+  // Switcher that appears on clusters
+  .switcher              {display:flex; margin: 0 20px 10px; border-bottom:1px solid #97a9b5; padding:20px 0 15px;
+    .option              {display:flex; margin-right:15px; cursor: pointer;
+      .radio             {width:16px; height:16px; border-radius:50%; background:white; border:solid white 4px; }
+      .txt               {font-size:14px; font-style: italic; font-weight: $medium; color:#254459; margin-left:8px; }
+      &.active           {
+        .radio           {background:#009AC4;}
+      }
+      &:hover            {
+        .txt             {color:#082133;}
       }
     }
   }
-  .guide             { font-style:italic; font-weight:$medium; color:#4C8499; margin-top:20px;
-    a                { color:#3FAFC8; text-decoration: none; font-style:normal;
-      &:hover        { text-decoration:underline; }
+
+  // Top Info
+  .info                  {display:flex;
+    .blurb               {max-width:280px;
+      .title             {}
+      .txt               {font-size:14px; font-style: italic; font-weight: $medium; color:#254459; line-height:1.3;}
+    }
+    .icon                {flex-grow:1;text-align: center; position:relative;
+      svg#console-map,
+      svg#cluster-map    {margin-right:-110px;margin-top:10px;}
+    }
+  }
+
+  // Terminal Area
+  .terminal              {background:#1B2F3D; color:$white; font-family:$monaco; font-size:15px;
+    .comment             {color:#5189B3; font-size:13px; font-style: italic; margin-bottom:5px;
+      &:before           {content:"# "}
+    }
+    .command             {@include selectable;
+      &:before           {content:"$ "; color:#FF758D;}
+    }
+  }
+  .credentials           {background: #2D4252; color:#6C8BA1; font-size:14px;
+    .title               {color:#89ABC4; border-bottom-color: #3b5a71;}
+    table                {
+      tr                 {
+        td               {padding:0px 0 10px;
+          &.key          {font-style: italic; font-weight: $medium;}
+          &.val          {@include selectable;
+            &:before     {content:" : "; margin:0 10px;  }
+            &::selection {background:#1B2F3D; color:#9CD5FF;}
+          }
+        }
+      }
+    }
+  }
+
+  // Specific to hosts, host instances, data components, etc..
+  &.host                 {
+    svg                  {
+      .db                {display:none;}
+    }
+  }
+  &.component            {
+    svg                  {
+      .db                {display:none;}
+      .host-l            {fill:#D8DFE3;}
+      .host-r            {fill:#E2E9ED;}
+      .host-t            {fill:#FFFFFF;}
+      .host-b            {fill:#F3F5F5; }
+      .docker-l          {fill:#14A2C9; }
+      .docker-t          {fill:#19CDFF; }
+      .docker-r          {fill:#16B2DE; }
+    }
+  }
+  &.data                 {
+    svg                  {
+      .host-l            {fill:#D8DFE3;}
+      .host-r            {fill:#E2E9ED;}
+      .host-t            {fill:#FFFFFF;}
+      .host-b            {fill:#F3F5F5; }
+    }
+    .info                {
+      .icon              {
+        svg#console-map  {margin-right:-110px;margin-top:40px;}
+        .service-icon    {position: absolute; left:100px; top:2px;
+          .service       {position:absolute; top:5px; left:4px; width:46px;}
+        }
+      }
+    }
+  }
+  &.docker{
+    svg                  {
+      .host-l            {fill:#D8DFE3;}
+      .host-r            {fill:#E2E9ED;}
+      .host-t            {fill:#FFFFFF;}
+      .host-b            {fill:#F3F5F5; }
+      .docker-l          {fill:#14A2C9; }
+      .docker-t          {fill:#19CDFF; }
+      .docker-r          {fill:#16B2DE; }
     }
   }
 }

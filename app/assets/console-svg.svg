@@ -1,30 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="svgs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 640 480" style="enable-background:new 0 0 640 480;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#293945;}
-	.st1{fill:#324959;}
-	.st2{fill:none;stroke:#F06368;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#02D6ED;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st4{fill:#F06368;}
-	.st5{fill:#02D6ED;}
+	.st0{fill:#19CDFF;}
+	.st1{fill:#EFF2F2;}
+	.st2{fill:#108EB0;}
+	.st3{fill:#129EC5;}
+	.st4{fill:#16B5E0;}
+	.st5{fill:#F9FCFC;}
+	.st6{fill:#EAEDED;}
+	.st7{fill:#FFFFFF;}
+	.st8{fill:#E2E9ED;}
+	.st9{fill:#D8DFE3;}
 </style>
-<g id="terminal-downloader">
-	<rect x="82.1" y="133.4" class="st0" width="464.4" height="200.4"/>
-	<rect x="82.1" y="113.7" class="st1" width="464.4" height="20.1"/>
-	<circle id="_x3E_dl-line_2_" class="st2" cx="314.7" cy="219.5" r="36.5"/>
-	<polyline id="_x3E_dl-line_1_" class="st3" points="333.3,224 314.3,243 295.3,224 	"/>
-	<line id="_x3E_dl-line" class="st3" x1="314.3" y1="243" x2="314.3" y2="193.5"/>
-	<path class="st4" d="M120.8,152.8v1.5h1.5v6h-3v-6h-3v6h-3v-7.5H120.8z"/>
-	<path class="st4" d="M125.3,154.3v-1.5h7.5v7.5h-7.5v-1.5h-1.5v-4.5H125.3z M126.8,158.8h3v-4.5h-3V158.8z"/>
-	<path class="st4" d="M141.8,152.8v1.5h1.5v6h-3v-6h-3v6h-3v-7.5H141.8z"/>
-	<path class="st4" d="M153.8,158.8h-1.5v1.5h-6v-1.5h-1.5v-4.5h1.5v-1.5h6v1.5h1.5V158.8z M150.8,154.3h-3v4.5h3V154.3z"/>
-	<path class="st4" d="M162.8,154.3h1.5v4.5h-1.5v1.5h-7.5v-10.5h3v3h4.5V154.3z M161.3,158.8v-4.5h-3v4.5H161.3z"/>
-	<path class="st4" d="M174.8,158.8h-1.5v1.5h-6v-1.5h-1.5v-4.5h1.5v-1.5h6v1.5h1.5V158.8z M171.8,154.3h-3v4.5h3V154.3z"/>
-	<path class="st4" d="M185.3,160.3h-3v-3h-3v3h-3v-3h1.5v-1.5h-1.5v-3h3v3h3v-3h3v3h-1.5v1.5h1.5V160.3z"/>
-	<path class="st4" d="M186.8,160.3h9v1.5h-9V160.3z"/>
-	<path class="st5" d="M105.1,153.8h2.2v2.3h-2.2v2.3h-2.3v2.3h-4.6v-2.3h2.3V156h2.2v-2.3h-2.2v-2.3h-2.3v-2.3h4.6v2.3h2.3V153.8z"
-		/>
+<g id="console-map">
+	<polygon id="_x3E_host-t" class="st0" points="247.662,237.96 318.89,274.676 391.819,237.301 320.587,200.585 	"/>
+	<polyline class="st1" points="321.421,239.662 321.421,248.371 317.173,250.589 308.854,246.22 	"/>
+	<polyline class="st1" points="337.37,231.394 337.37,240.104 333.121,242.321 324.803,237.954 	"/>
+	<polygon id="_x3E_host-l_4_" class="st2" points="318.89,274.771 247.662,238.057 247.662,249.713 318.89,286.428 	"/>
+	<polygon id="_x3E_host-r_4_" class="st3" points="318.89,274.771 391.819,237.301 391.819,248.957 318.89,286.428 	"/>
+	<polygon id="_x3E_host-b_3_" class="st4" points="260.337,237.464 273.471,244.423 286.043,237.941 272.904,230.987 	"/>
+	<polygon id="_x3E_host-r" class="st2" points="286.043,237.86 272.904,230.904 272.904,239.613 277.754,242.215 	"/>
+	<polygon class="st5" points="276.285,229.114 301.419,242.321 313.991,235.838 288.852,222.637 	"/>
+	<polygon class="st6" points="313.991,235.755 288.852,222.558 288.852,231.264 305.703,240.109 	"/>
+	<polyline class="st1" points="288.852,222.558 288.852,231.264 284.601,233.483 276.285,229.114 	"/>
+	<polygon class="st5" points="292.238,220.848 317.369,234.052 329.941,227.569 304.802,214.372 	"/>
+	<polygon class="st6" points="329.941,227.487 304.802,214.288 304.802,222.997 321.651,231.842 	"/>
+	<polyline class="st1" points="304.802,214.288 304.802,222.997 300.551,225.216 292.238,220.848 	"/>
+	<polygon class="st5" points="308.184,212.497 333.318,225.702 345.892,219.22 320.751,206.022 	"/>
+	<polygon class="st6" points="345.892,219.138 320.751,205.939 320.751,214.646 337.6,223.492 	"/>
+	<polyline class="st1" points="320.751,205.939 320.751,214.646 316.5,216.868 308.184,212.497 	"/>
+	<polygon id="_x3E_host-b" class="st4" points="305.706,260.891 318.84,267.85 331.412,261.369 318.273,254.415 	"/>
+	<polygon id="_x3E_host-r_2_" class="st2" points="331.412,261.287 318.273,254.331 318.273,263.041 323.124,265.643 	"/>
+	<polygon id="_x3E_host-b_1_" class="st4" points="320.852,252.467 333.987,259.426 378.46,236.327 365.321,229.373 	"/>
+	<polygon id="_x3E_host-r_3_" class="st2" points="378.46,236.246 365.321,229.289 365.321,237.999 370.172,240.601 	"/>
+	<polyline id="_x3E_host-l_3_" class="st3" points="365.321,229.289 365.321,237.999 329.168,256.86 320.852,252.49 	"/>
+	<polyline id="_x3E_host-l_2_" class="st3" points="318.273,254.331 318.273,263.041 314.022,265.285 305.706,260.914 	"/>
+	<polygon id="_x3E_host-b_2_" class="st4" points="282.244,249.147 295.379,256.107 307.95,249.624 294.811,242.67 	"/>
+	<polygon id="_x3E_host-r_1_" class="st2" points="307.95,249.542 294.811,242.586 294.811,251.296 299.662,253.898 	"/>
+	<polyline id="_x3E_host-l_1_" class="st3" points="294.811,242.586 294.811,251.296 290.56,253.517 282.244,249.147 	"/>
+	<polyline id="_x3E_host-l" class="st3" points="272.894,230.89 272.894,239.6 268.643,241.82 260.326,237.45 	"/>
+	<polygon class="st7" points="327.266,199.173 302.751,212.053 290.486,205.73 315.008,192.855 	"/>
+	<polygon class="st8" points="327.266,208.873 327.266,199.174 302.751,212.053 302.75,221.443 	"/>
+	<polygon class="st9" points="302.751,212.053 290.486,205.73 290.486,215.174 302.75,221.443 	"/>
+	<polygon class="st7" points="298.278,214.324 273.764,227.203 261.499,220.88 286.022,208.007 	"/>
+	<polygon class="st7" points="342.824,207.318 318.309,220.196 306.044,213.875 330.566,201 	"/>
+	<polygon class="st8" points="342.824,217.016 342.824,207.319 318.309,220.196 318.308,229.588 	"/>
+	<polygon class="st9" points="318.309,220.196 306.044,213.875 306.044,223.316 318.308,229.588 	"/>
+	<polygon class="st7" points="358.38,215.463 333.867,228.341 321.601,222.017 346.123,209.145 	"/>
+	<polygon class="st8" points="358.38,225.16 358.38,215.463 333.867,228.341 333.865,237.733 	"/>
+	<polygon class="st9" points="333.867,228.341 321.601,222.017 321.601,231.462 333.865,237.733 	"/>
+	<polygon class="st8" points="298.278,224.022 298.278,214.325 273.764,227.203 273.763,236.595 	"/>
+	<polygon class="st9" points="273.764,227.203 261.499,220.88 261.499,230.323 273.763,236.595 	"/>
+	<polygon id="_x3E_docker-t" class="st7" points="313.836,222.469 289.322,235.348 277.057,229.026 301.579,216.152 	"/>
+	<polygon id="_x3E_db" class="st0" points="283.558,228.711 301.591,219.243 307.337,222.204 289.309,231.676 	"/>
+	<polygon id="_x3E_docker-r" class="st8" points="313.836,232.167 313.836,222.469 289.322,235.348 289.321,244.74 	"/>
+	<polygon id="_x3E_docker-l" class="st9" points="289.322,235.348 277.057,229.026 277.057,238.469 289.321,244.74 	"/>
+	<polygon class="st7" points="329.394,230.612 304.879,243.492 292.615,237.169 317.137,224.296 	"/>
+	<polygon class="st8" points="329.394,240.312 329.394,230.614 304.879,243.492 304.879,252.885 	"/>
+	<polygon class="st9" points="304.879,243.492 292.615,237.169 292.615,246.614 304.879,252.885 	"/>
+	<polygon class="st7" points="373.259,222.008 332.704,243.268 322.667,238.097 363.232,216.838 	"/>
+	<polygon class="st8" points="373.259,231.456 373.259,222.008 332.704,243.268 332.704,252.465 	"/>
+	<polygon class="st9" points="332.704,243.268 322.667,238.097 322.667,247.336 332.704,252.465 	"/>
+	<polygon class="st7" points="328.888,245.209 318.861,250.38 308.825,245.209 318.861,240.038 	"/>
+	<polygon class="st8" points="328.888,254.656 328.888,245.209 318.861,250.38 318.861,259.576 	"/>
+	<polygon class="st9" points="318.861,250.38 308.825,245.209 308.825,254.448 318.861,259.576 	"/>
+</g>
+<g id="white-hex">
+	<polygon class="st7" points="735.804,8.582 708.93,24.098 682.057,8.582 682.057,-22.452 708.93,-37.967 735.804,-22.449 	"/>
+</g>
+<g id="cluster-map">
+	<polygon id="_x3E_host-t_1_" class="st0" points="250.61,359.997 322.001,396.513 392.151,360.59 320.757,324.074 	"/>
+	<polygon id="_x3E_host-l_5_" class="st2" points="322.001,396.627 250.61,359.97 250.61,373.916 322.001,410.573 	"/>
+	<polygon id="_x3E_host-r_5_" class="st3" points="322.001,396.627 392.151,360.59 392.151,374.536 322.001,410.573 	"/>
+	<polygon id="_x3E_host-b_4_" class="st4" points="270.061,359.972 322.96,387.061 376.169,359.426 323.265,332.343 	"/>
+	<polygon id="_x3E_host-l_6_" class="st2" points="376.169,359.328 323.265,332.242 323.265,342.663 366.252,364.539 	"/>
+	<polyline id="_x3E_host-r_6_" class="st3" points="323.265,332.242 323.265,342.663 280.011,365.229 270.061,360 	"/>
+	<polygon id="_x3E_docker-t_1_" class="st7" points="369.946,342.294 321.425,367.729 272.233,342.78 320.766,317.345 	"/>
+	<polygon id="_x3E_docker-r_1_" class="st8" points="369.946,353.597 369.946,342.294 321.425,367.729 321.425,378.733 	"/>
+	<polygon id="_x3E_docker-l_1_" class="st9" points="321.425,367.729 272.233,342.78 272.233,353.834 321.425,378.733 	"/>
 </g>
 </svg>

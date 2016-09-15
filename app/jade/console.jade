@@ -1,6 +1,32 @@
-.console-component
-  .download
-    a(href="https://desktop.nanobox.io/downloads/")
-      .txt Download The<br/>Nanobox CLI
-      img.shadow-icon(data-src="terminal-downloader")
-  .guide Guide : <a href="https://docs.nanobox.io/data-management/remotely-managing-data/">Tunneling into your Service</a>
+.console-component(class="#{klass}")
+  if isCluster
+    .switcher
+      .option.active(data-kind='host')
+        .radio
+        .txt Host
+      .option.docker(data-kind='docker')
+        .radio
+        .txt Docker Container
+  .info
+    .blurb
+      .title= title
+      .txt= blurb
+    .icon
+      img.shadow-icon(data-src="#{mapIcon}")
+      if serviceIcon != null
+        .service-icon
+          .service
+            img.shadow-icon(data-src="hex-#{serviceIcon}" scalable="true")
+          img.shadow-icon(data-src="white-hex")
+  .terminal
+    .comment cd into your local app directory and run:
+    .command= command
+  if credentials != null
+    .credentials
+      .title Connection Credentials
+      table
+        each val, key in credentials
+          tr
+            td.key= key
+            td.val= val
+          
