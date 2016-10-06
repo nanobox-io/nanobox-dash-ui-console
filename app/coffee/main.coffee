@@ -26,7 +26,7 @@ class Console
     data =
       klass       : 'component'
       title       : 'Console'
-      blurb       : 'Running console will open a terminal directly in your running docker container. This can be useful for running commands however should not be used for manual installations or for configuring your environment..'
+      blurb       : 'Running console will open a terminal directly in your running docker container. This can be useful for running commands however should not be used for manual installations or for configuring your environment.'
       command     : "nanobox console #{params.id}"
       mapIcon     : 'console-map'
 
@@ -41,7 +41,8 @@ class Console
     if params.tunnelCredentials?
       data.serviceIcon = params.serviceIcon
       data.klass       = 'data'
-      data.title       = "DB Connection Tunnel"
+      data.title       = "Connection Tunnel"
+      data.blurb       = "Running the tunnel command will bind to a port on your local machine and forward connections to your live container. This is used to remotely manage data in your data component."
       data.credentials = params.tunnelCredentials
       data.command     = "nanobox tunnel #{params.id}"
 
